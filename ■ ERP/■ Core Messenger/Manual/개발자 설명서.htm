@@ -1,0 +1,488 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content="text/html; charset=ks_c_5601-1987" http-equiv=Content-Type>
+<STYLE title=_dext_stylesheet>BLOCKQUOTE {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+x\:* {
+	POSITION: relative; VISIBILITY: hidden
+}
+TD {
+	WORD-BREAK: break-all
+}
+BODY {
+	WORD-BREAK: break-all
+}
+UL {
+	MARGIN-TOP: 5pt; MARGIN-BOTTOM: 5pt; MARGIN-LEFT: 30pt
+}
+OL {
+	MARGIN-TOP: 5pt; MARGIN-BOTTOM: 5pt; MARGIN-LEFT: 30pt
+}
+</STYLE>
+</HEAD>
+<BODY style="FONT-SIZE: 10pt; FONT-FAMILY: 굴림">
+<P><font face="맑은 고딕"><span style="font-size:14pt;"><b>코어 메신저 개발자 설명서<br>
+</b></span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">개발환경 : Microsoft Visual Basic.NET 2008 이상</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">프레임워크 : Dotnet Framework 2.0</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">데이터베이스 : Microsoft SQL Server (또는 Express)<br>
+</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"><br>
+<br>
+</span></font><STRONG><font face="맑은 고딕"><span style="font-size:14pt;"><b>[1] 폴더 구성</b></span></font></STRONG><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><STRONG></STRONG><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<table width="421" cellpadding="0" cellspacing="0" height="360">
+    <tr>
+        <td width="421" height="20" align="center" valign="middle" bgcolor="#CCCCCC">
+            <p align="left"><font face="굴림"><span style="font-size:9pt;">&nbsp;Install</span></font></p>
+        </td>
+    </tr>
+    <tr>
+        <td width="421" align="left" valign="middle" height="20">
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="blue"><br>
+</font><font face="굴림" color="black">&nbsp;1. Core Messenger Data Manager Setup.exe</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:black;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 데이터 관리자 설치 파일</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;2. Core Messenger Server Setup.exe</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:black;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 서버 설치 파일</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;3. Core Messenger Setup.exe</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:black;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 설치 파일</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;4. Core Messenger Update Server Setup.exe</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 업데이트 서버 설치 파일<br>
+</font></span></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;</font></span></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="421" align="left" valign="middle" height="20" bgcolor="#CCCCCC"><font face="굴림"><span style="font-size:9pt;">&nbsp;Manual</span></font></td>
+    </tr>
+    <tr>
+        <td width="421" align="left" valign="middle" height="20">
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black"><br>
+ &nbsp;1. 개발자 설명서.htm</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 개발자용 설명서 파일</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;2. 관리자 설명서.htm</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 관리자용 설명서 파일</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;3. 데이터 설명서.xls</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 데이터베이스 설명서&nbsp;파일<br>
+</font></span><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;4. 사용자&nbsp;설명서.pdf</font></span></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 사용자용&nbsp;설명서&nbsp;파일<br>
+</font></span></P>
+            <P>&nbsp;</P>
+        </td>
+    </tr>
+    <tr>
+        <td width="421" align="left" valign="middle" height="20" bgcolor="#CCCCCC"><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;Setup</font></span><font face="굴림"><span style="font-size:9pt;"></span></font></td>
+    </tr>
+    <tr>
+        <td width="421" align="left" valign="middle" height="20">
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;<br>
+ &nbsp;1. Core Messenger Data Manager Setup</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 데이터 관리자 설치 프로그램 소스</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;2. Core Messenger Server Setup</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 서버 설치 프로그램 소스</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;3. Core Messenger Setup</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 설치 프로그램 소스</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;4. Core Messenger Update Server Setup</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 업데이트 서버 설치 프로그램 소스<br>
+&nbsp;</font></span></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="421" align="left" valign="middle" height="20" bgcolor="#CCCCCC"><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;Source</font></span><font face="굴림"><span style="font-size:9pt;"></span></font></td>
+    </tr>
+    <tr>
+        <td width="421" align="left" valign="middle" height="20">
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black"><br>
+&nbsp;1. Core Messenger</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:black;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 클라이언트 소스</font></span></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;2. Core Messenger Data Manager</font></span><font color="black"></font><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:black;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 데이터 관리자 소스</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;3. Core Messenger Database Script</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:black;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 데이터베이스 스크립트 파일</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;4. Core Messenger Server</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:black;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 서버 소스</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;5. Core Messenger Server Manager</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 서버 관리자 소스</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;6. Core Messenger Update</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:black;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 클라이언트 업데이트 소스</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;7. Core Messenger Update Server</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 업데이트 서버 소스</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt; color:purple;"><font face="굴림" color="black">&nbsp;8. Core Messenger Update Server  Manager</font></span><font color="black"></font></P>
+            <P><span style="font-size:9pt;"><font face="굴림" color="black">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 업데이트 서버 관리자 소스</font></span></P>
+            <P>&nbsp;</P>
+        </td>
+    </tr>
+</table>
+<P><span style="font-size:9pt;"></span><span style="font-size:9pt;"></span><span style="font-size:9pt;"></span><span style="font-size:9pt;"></span><span style="font-size:9pt;"></span><span style="font-size:9pt;"></span><span style="font-size:9pt;"></span><span style="font-size:9pt; color:purple;"></span><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><font color="black"></font><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><span style="font-size:9pt; color:purple;"></span></P>
+<P><span style="font-size:9pt; color:purple;"></span></P>
+<P><span style="font-size:9pt;"></span></P>
+<P><font color="black"></font><span style="font-size:9pt;"></span></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;"><b>[2] 서버 설치</b></span></font></STRONG><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">1. 데이터베이스 설치 및 생성</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; &gt;&nbsp;코어 메신저 서버는 기본적으로 MS-SQL을 데이터베이스로 사용합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 메신저 서버를 설치하고하 하는 서버 컴퓨터 또는 별도의 서버 컴퓨터에 MS-SQL을 
+설치를 해야 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(본 메신저 소스에는 MS-SQL은 포함되어 있지 않습니다. MS-SQL 이 
+없을경우, Express 버전을 설치하시면 됩니다.)</span></font></P>
+<P>&nbsp;<font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 설치가 되어 있다면 데이터베이스를 생성해야 하며, MS-SQL에서 </span><span style="font-size:9pt; color:rgb(0,0,160);">Source\Core Messenger Database Script </span><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt; color:rgb(0,0,160);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:9pt;">폴더 내부의 </span>
+<span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger 
+Database.sql</span><span style="font-size:9pt;"> 스크립트 파일을 실행하여 생성할 수 있습니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;아래는 MS-SQL 설치 예입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;(여기서는 Microsoft SQL Server 2008 Express 로 
+진행했습니다.)</span></font></P>
+<P>&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/Image10.bmp" width="901" height="731" border="0"></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;우선 데이터베이스 만들기를 이용하여 Core Messenger 라는 
+데이터베이스를 생성합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다음으로 Core Messenger 데이터베이스를 선택 
+후&nbsp;Source\Core Messenger Database Script 폴더 내부의</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Core Messenger Database.sql 파일을 열어서 
+실행합니다. </span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 아래와 같이 Core Messenger 데이터베이스에 10개의 테이블이 
+생성됩니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span><span style="font-family:굴림; font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보다 자세한 테이블 정보는 Manual 폴더의 </span><span style="font-size:9pt;">코어 메신저 </span></font><font face="굴림" color="#0000A0"><span style="font-size:9pt;">데이터 설명서.xls</span></font><font face="굴림"><span style="font-size:9pt;"> 파일을 참조하시면 됩니다.</span></font></P>
+<P>&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/Image11.bmp" width="894" height="629" border="0"></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">2. 메신저 서버 컴파일 및 설치</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server&nbsp;</span><span style="font-size:9pt;">폴더 
+내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server.sln </span><span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) 소스를 컴파일 후, </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger 
+Server.exe </span><span style="font-size:9pt;">파일을&nbsp;설치하고자 하는 서버 컴퓨터에 복사합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) Command Prompt 창에서 서비스로 등록합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (예. C:\Messenger Server\Core 
+Messenger Server.exe -install)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (주의할 점은 윈도우 
+Vista 이상일 경우에는 관리자 권한으로 실행해야 합니다.)</span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (4) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server  
+Manager </span><span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server  
+Manager.sln </span><span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(5) 소스를 컴파일 후, </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger 
+Server Manager.exe </span><span style="font-size:9pt;">파일을 위의 (2)에서 설치한 서버 폴더에</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 복사합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(6) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server 
+Manager.exe </span><span style="font-size:9pt;">파일을 실행합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG 
+style="HEIGHT: 300px; WIDTH: 360px" 
+src="image/Image1.bmp" width=360 
+height=300></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (7) [환경설정] 탭에서 위의 예와 같이, 데이터베이스 연결 문자열 및 파일 스토리지 폴더, 서비스 포트 번호를 입력 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(데이터베이스 연결 문자열 예. 
+server=127.0.0.1;database=Core Messenger;uid=sa;pwd=0000)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(위의 설정은 예시이며, 해당 SQL 서버 주소 또는 
+인스턴스 명, 그리고 계정을 입력해야 합니다.)</span></font></P>
+<P><span style="font-size:9pt;">&nbsp;</span></P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><IMG 
+style="HEIGHT: 300px; WIDTH: 360px" 
+src="Image/Image2-1.bmp" width=360 
+height=300></span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(8) [관리자] 탭에서 데이터 관리자 접속을 위한 관리자 아이디 및 비밀번호를 설정 후, [확인]을 클릭합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (9) 상단의 [제어] - [서비스 시작] 메뉴를 클릭하여 메신저 서버 서비스를 시작합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (서비스 시작전 
+방화벽에서 Core Messenger Server.exe 파일에 대한 방화벽 예외를 설정해 주어야 
+합니다.)</span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (10) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server 
+Manager.exe </span><span style="font-size:9pt;">를 종료합니다.</span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;">3. 메신저 업데이트 서버 컴파일 및 설치</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; &gt; 메신저 업데이트 서버는 보유한 웹서버가 없을 경우 사용할 수 있는&nbsp;초소형 웹 서버 입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 만일 Apache 또는 IIS 등의 웹서버를 보유하고 있다면 업데이트 서버를 설치할 
+필요는 없습니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (업데이트 서버는 소규모의 메신저 사용에 적합하며 대량의 업데이트를 처리하지는 못합니다.)</span></font></P>
+&nbsp;<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update Server </span>
+<span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update Server.sln </span>
+<span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) 소스를 컴파일 후, </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger 
+Update Server.exe </span><span style="font-size:9pt;">파일을 설치하고자 하는 서버 컴퓨터에 복사합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) Command Prompt 창에서 서비스로 등록합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; (예. C:\Messenger Update Server\Core 
+Messenger Update Server.exe -install)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (주의할점은 윈도우 
+Vista 이상일 경우에는 관리자 권한으로 실행해야 합니다.)</span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (4) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update Server 
+Manager </span><span style="font-size:9pt;">폴더 내부의 </span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:9pt; color:rgb(0,0,160);">Core 
+Messenger Update Server Manager.sln </span><span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (5) 소스를 컴파일 후, </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger 
+Update Server Manager.exe </span><span style="font-size:9pt;">파일을 위의 (2)에서 설치한 서버 폴더에</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 복사합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (6) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update Server 
+Manager.exe </span><span style="font-size:9pt;">파일을 실행합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG 
+style="HEIGHT: 300px; WIDTH: 360px" 
+src="image/Image2.bmp" width=360 
+height=300></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (7) 위의 예와 같이,&nbsp;파일 스토리지 폴더 및 서비스 포트 번호를 입력 후, [확인]을 
+클릭합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (8) 상단의 [제어] - [서비스 시작] 메뉴를 클릭하여 메신저 서버 서비스를 시작합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (서비스 시작전 
+방화벽에서 Core Messenger Update Server.exe 파일에 대한 방화벽 예외를 설정해 주어야 
+합니다.)</span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (9) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update Server 
+Manager.exe </span><span style="font-size:9pt;">를 종료합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;"><b>[3] 사용자 정보 입력</b></span></font></STRONG><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><STRONG></STRONG><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">1. 기본 코드 입력</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저를 사용하기 위하여, 기본적으로 부서, 직급, 사용자 정보등을 입력하셔야 
+합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 이러한 정보는 직접 데이터베이스에서 입력이 가능하지만, 코어 메신저 
+데이터 관리자를 사용하시면 편리합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 코어 메신저 데이터 관리자는 데이터베이스에&nbsp;접속하지 않고, 
+메신저 서버에 접속하여 데이터를 처리합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger&nbsp;Data 
+Manager&nbsp;</span><span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Data 
+Manager.sln </span><span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) 소스를 컴파일 후, </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Data 
+Manager.exe </span><span style="font-size:9pt;">파일을 설치하고자 하는&nbsp;컴퓨터에 복사합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Data Manager.exe </span>
+<span style="font-size:9pt;">파일을 실행합니다.&nbsp; </span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font><img src="Image/Image3.bmp" width="1000" height="563" border="0"></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (4) [파일] - [프로그램 설정] 메뉴를 클릭합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG 
+style="HEIGHT: 208px; WIDTH: 374px" 
+src="image/Image4.bmp" width=374 
+height=208></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (5) 프로그램 설정창에서 메신저 서버 주소 및 포트 번호를 입력 후 [확인] 버튼을 클릭합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (6) [파일] - [연결하기] 메뉴 또는 F2 키를 눌러 로그인 창을 엽니다.&nbsp;</span></font></P>
+<P>&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Image/Image3-1.bmp" width="370" height="250" border="0"></P>
+<P>&nbsp;</P>
+<P>&nbsp;<font face="굴림"><span style="font-family:굴림; font-size:9pt;">&nbsp;&nbsp;(7) 메신저 서버 관리자에서 설정한 관리자 계정으로 로그인을 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (8) 자세한 입력방법은 별도로 첨부한 </span><span style="font-size:9pt; color:rgb(0,0,160);">
+관리자 설명서.htm </span></font><font face="굴림">
+<span style="font-size:9pt;">파일을&nbsp;참조하세요.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;"><b>[4]&nbsp;클라이언트 설치</b></span></font></STRONG><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">1. 메신저&nbsp;클라이언트 컴파일 및 설치</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 클라이언트는 코어 메신저 자동 업데이트&nbsp;소프트웨어를</span><span style="font-size:9pt;">&nbsp;같이 배포하셔야 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger </span><span style="font-size:9pt;">폴더 내부의 </span>
+<span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger.sln </span><span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) </span><span style="font-size:9pt; color:rgb(0,0,160);">Module_Main.vb </span>
+<span style="font-size:9pt;">파일에서 11번째 줄.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '메신저 서버 아이피<BR>&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; Public MessengerServerIP As String = 
+&quot;127.0.0.1&quot;<BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; '메신저 서버 
+포트번호<BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Public MessengerServerPortNo As 
+Integer = 38000<BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; '홈페이지 
+주소<BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Public CompanyWebSite As String = 
+&quot;</span></font><span style="font-size:9pt;"><A href="http://www.coretive.com"><font face="굴림">www.coretive.com</font></A></span><font face="굴림"><span style="font-size:9pt;">&quot;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 부분을 원하시는 설정으로 변경합니다. 메신저 서버 아이피 및 
+포트번호는 메신저 서버가 설치된 </span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 아이피 및 포트번호를 입력하시면 됩니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (* 메신저 원격제어 포트번호는 서버로부터 수신되므로 설정할 
+필요가 없습니다.)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) 소스를 컴파일 후, </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger.exe </span>
+<span style="font-size:9pt;">파일</span><span style="font-size:9pt;">을 설치하고자 하는&nbsp;사용자 컴퓨터에 복사합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(4) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger 
+Update&nbsp;</span><span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update.sln </span>
+<span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (5) 소스를 컴파일 후, </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger 
+Update.exe </span><span style="font-size:9pt;">파일을 위의 (3)과 동일한 폴더에&nbsp;복사합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (6) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger.exe </span><span style="font-size:9pt;">파일을 
+실행한 후, 부여된 계정으로 로그인 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;"><b>[5]&nbsp;설치&nbsp;프로그램 만들기</b></span></font></STRONG><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><STRONG></STRONG><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">1. 설치 프로그램 만들기</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저는 기본적으로 닷넷 프레임워크 2.0 을 사용합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 이는 WindowXP 이상 업데이트 설치시 자동으로 설치되므로 설치 
+프로그램 프로젝트에는 이를 고려하지 않았습니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 다시말해 설치 프로그램 프로젝트는 닷넷 프레임워크 2.0이 기본적으로 
+설치되어 있다는 가정하에, 해당 파일들</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 설치 및 바탕화면 구성, 프로그램 구성을 처리합니다. 설치 프로그램 
+프로젝트는 코어 메신저 실행파일을 내부 리소스로</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 포함하여 처리합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (첨부한 Install 폴더내부에는 미리 컴파일한 설치 
+프로그램이 포함되어 있습니다.)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 설치 프로그램을 통한 프로그램 
+설치시 자동으로 [시작] 메뉴 및 바탕화면에 바로가기 아이콘이 생성됩니다.</span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 메신저 서버 및 업데이트 서버의 
+경우, 자동으로 서비스 등록이 완료됩니다.</span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">2. 코어 메신저 데이터 관리자 설치 프로그램 만들기</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Data Manager 
+Setup </span><span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Resource </span><span style="font-size:9pt;">폴더에, 컴파일한 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Data Manager.exe </span><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 파일을 
+덮어씁니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Data Manager 
+Setup.sln </span><span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) 소스를 컴파일 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">3. 코어 메신저 서버 설치 프로그램 만들기</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server Setup </span>
+<span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Resource </span><span style="font-size:9pt;">폴더에, 컴파일한 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server.exe </span><span style="font-size:9pt; color:black;">파일과</span><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt; color:rgb(0,0,160);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Core Messenger 
+Server Manager.exe</span><span style="font-size:9pt;"> 파일을 덮어씁니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server Setup.sln </span>
+<span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) 소스를 컴파일 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">4. 코어 메신저 설치 프로그램 만들기</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Setup </span><span style="font-size:9pt;">폴더 
+내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Resource </span><span style="font-size:9pt;">폴더에, 컴파일한 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger.exe </span><span style="font-size:9pt;">파일을 덮어씁니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (설치 프로그램 프로젝트에는 코어 메신저와&nbsp;자동 업데이트 
+소프트웨어가 같이 포함됩니다. </span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 만일 자동 업데이트&nbsp;소프트웨어까지 수정하게 된다면, </span>
+<span style="font-size:9pt;">해당 파일도 덮어쓰시면 됩니다.) </span></font>
+</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Setup.sln </span>
+<span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) 소스를 컴파일 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">5. 코어 메신저 업데이트 서버 설치 프로그램 만들기</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update Server 
+Setup </span><span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Resource </span><span style="font-size:9pt;">폴더에, 컴파일한 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update Server.exe</span><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt; color:black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+파일과</span><span style="font-size:9pt; color:rgb(0,0,160);"> Core 
+Messenger Update Server Manager.exe</span><span style="font-size:9pt;"> 파일을 덮어씁니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Update Server 
+Setup.sln </span><span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) 소스를 컴파일 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG></STRONG><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;">[6] 코어 메신저 업데이트 처리 </span></font></STRONG><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><STRONG></STRONG><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG></STRONG><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">1. 코어 메신저 버전 수정</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저 업데이트는 내부 버전 체크 비교 방식을 사용합니다. 수정(또는 추가)된 코어 메신저 
+소스에서</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 해당 버전을 보다 높은 숫자로 변경 후 컴파일 하고, 이 파일을 업데이트 
+서버에 복사 및 업데이트 정보 설정</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 과정을 통해서 진행됩니다.&nbsp;&nbsp;&nbsp;&nbsp; </span></font>
+</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger </span><span style="font-size:9pt;">폴더 내부의 </span>
+<span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger.sln </span><span style="font-size:9pt;">을 오픈 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) 기능 수정 또는 추가를 처리합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(3) </span><span style="font-size:9pt; color:rgb(0,0,160);">솔루션 탐색기</span><span style="font-size:9pt;">에서 </span><span style="font-size:9pt; color:rgb(0,0,160);">My Project</span><span style="font-size:9pt;">를 더블 클릭 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (4) 응용 프로그램 탭에서 [</span><span style="font-size:9pt; color:rgb(0,0,160);">어셈블리 정보</span><span style="font-size:9pt;">]를 
+클릭 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG 
+style="HEIGHT: 404px; WIDTH: 408px" 
+src="image/Image9.bmp" width=408 
+height=404></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (5) 어셈블리 버전과 파일 버전을 동일하게, 기존 버전보다는 높게 설정합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (예를 들면 기존 버전이 1.0.0.1 이면 수정은 
+1.0.0.2 식으로 설정하면 됩니다.)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (6) 소스를 컴파일 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(7) </span><span style="font-size:9pt; color:rgb(0,0,160);">코어 메신저 업데이트 서버  
+관리자</span><span style="font-size:9pt;">를 실행합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (8) </span><span style="font-size:9pt; color:rgb(0,0,160);">파일 스토리지 폴더</span><span style="font-size:9pt;">란에 설정된 경로에, 
+위에서 컴파일한 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger.exe </span><span style="font-size:9pt;">파일을 복사합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (9) </span><span style="font-size:9pt; color:rgb(0,0,160);">코어 메신저 업데이트 서버 관리자</span><span style="font-size:9pt;">를 
+닫습니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (10) </span><span style="font-size:9pt; color:rgb(0,0,160);">코어 메신저 서버 관리자</span><span style="font-size:9pt;">를 
+실행합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (11) </span><span style="font-size:9pt; color:rgb(0,0,160);">업데이트 탭</span><span style="font-size:9pt;">에서 </span><span style="font-size:9pt; color:rgb(0,0,160);">메신저 업데이트 URL </span><span style="font-size:9pt;">란에 코어 메신저 업데이트 서버의 주소 및 경로와 파일명을 
+입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (예를 들면 업데이트 
+서버&nbsp;컴퓨터의 아이피가 192.168.0.1 이면, </span><span style="font-size:9pt; color:rgb(0,0,160);">http://192.168.0.1/Core Messenger.exe</span><span style="font-size:9pt;"> 로</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 입력하면 
+됩니다.)</span></font></P><font face="굴림"><span style="font-size:9pt;"><BR>
+</span></font><P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * 여기서 중요한점은 포트번호 설정입니다. 업데이트 
+서버의 서비스 포트번호가 38002 번 이라면, 업데이트 URL을</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+<span style="font-size:9pt; color:rgb(0,0,160);">http://192.168.0.1:38002/Core Messenger.exe </span><span style="font-size:9pt; color:black;">이런식으로 수정하시면 
+됩니다. 실제로 웹브라우저의 주소창에서</span><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt; color:black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+위의 URL을 입력했을 경우, 파일 다운로드창이 표시되면 이상이 없는 경우 입니다.</span></font><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (12) </span><span style="font-size:9pt; color:rgb(0,0,160);">메신저 업데이트 버전 </span><span style="font-size:9pt;">란에는 위에서 수정한 
+코어 메신저의 버전을 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (위의 예를 들면 1.0.0.2 로 
+입력하면 됩니다.)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (13) 확인을 누른 후 창을 닫습니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (14) 이후 코어 메신저를 종료 후 새로 실행하게 되면, 로그인 시 서버에 설정된 버전과 비교하게 되며, 새 
+버전이 있을경우</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 코어 메신저에 포함된 자동 업데이트 
+소프트웨어가 업데이트를 진행하게 됩니다. 만일 네트워크 문제 또는 여러 문제로</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 업데이트가 불가능 할경우, 무한 업데이트 
+처리를 방지하기 위해서 코어 메신저를 종료 후 재시작 하기 전까지는 </span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 다시 업데이트를 처리하지 
+않습니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"></span></font></P>
+<p><font face="굴림"><span style="font-size:9pt;"></span></font></p>
+<p><font face="굴림"><span style="font-size:9pt;"></span></font></p>
+<p><font face="굴림"><span style="font-size:9pt;"></span></font></p>
+<p><font face="굴림"><span style="font-size:9pt;"></span></font></p>
+<p><span style="font-size:9pt;"><font face="굴림"></font></span></p>
+<p><font face="굴림"><span style="font-size:9pt;"></span></font></p>
+<p><font face="굴림"><span style="font-size:9pt;"></span></font></p>
+<p><font face="굴림"><span style="font-size:9pt;"></span></font></p>
+</BODY></HTML>

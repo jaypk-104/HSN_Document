@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content="text/html; charset=ks_c_5601-1987" http-equiv=Content-Type>
+<STYLE title=_dext_stylesheet>BLOCKQUOTE {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+x\:* {
+	POSITION: relative; VISIBILITY: hidden
+}
+TD {
+	WORD-BREAK: break-all
+}
+BODY {
+	WORD-BREAK: break-all
+}
+UL {
+	MARGIN-TOP: 5pt; MARGIN-BOTTOM: 5pt; MARGIN-LEFT: 30pt
+}
+OL {
+	MARGIN-TOP: 5pt; MARGIN-BOTTOM: 5pt; MARGIN-LEFT: 30pt
+}
+</STYLE>
+</HEAD>
+<BODY style="FONT-FAMILY: 굴림; FONT-SIZE: 10pt">
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;"><b>[1] 데이터베이스 생성</b></span></font></STRONG>1</P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;"> &nbsp;&nbsp;(1) MSSQL 에서&nbsp;[Core Messenger] 라는 이름으로 데이터베이스를 생성합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"> &nbsp;&nbsp;(2) </span><span style="font-size:9pt; color:rgb(0,0,160);">Source\Core Messenger Database Script </span><span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Database.sql </span><span style="font-size:9pt;">을 이용해서 테이블을 생성합니다.</span></font></P>
+<P>&nbsp;<font face="굴림"><span style="font-family:굴림; font-size:9pt;">&nbsp;&nbsp;&nbsp;</span></font></P>
+<P>&nbsp;</P>
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;"><b>[2] 코어 메신저 서버 설치</b></span></font></STRONG>1</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"> &nbsp;&nbsp;(1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Install </span><span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Server Setup.exe 를</span><span style="font-size:9pt;">&nbsp;메신저 서버를 설치하고자 하는 컴퓨터에서&nbsp;실행합니다</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(PC 운영체제가 비스타 이상일때&nbsp;관리자 계정이 아니라면 관리자 권한으로 설치해야 합니다.)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (만일 실행시 오류가 발생한다면, 먼저 닷넷 프레임워크 2.0 버전을 설치해야 합니다.)</span></font></P>
+<P>&nbsp;<font face="굴림"><span style="font-family:굴림; font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font></P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><img src="Image/Image0.png" width="350" height="350" border="0"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(2) 설치를 진행합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><img src="Image/Image0-1.png" width="350" height="350" border="0"></span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(3) 설치가 완료되면 코어 메신저 서버 관리자를 실행합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG 
+style="HEIGHT: 300px; WIDTH: 360px" 
+src="image/Image1.bmp" width=360 
+height=300></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (4) [환경설정] 탭에서 위의 예와 같이, 데이터베이스 연결 문자열 및 파일 스토리지 폴더, 서비스 포트 번호를 입력 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(데이터베이스 연결 문자열 예. server=127.0.0.1;database=Core Messenger;uid=sa;pwd=0000)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(위의 설정은 예시이며, 해당 SQL 서버 주소 또는 인스턴스 명, 그리고 계정을 입력해야 합니다.)</span></font></P>
+<P><span style="font-size:9pt;">&nbsp;</span></P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><IMG 
+style="HEIGHT: 300px; WIDTH: 360px" 
+src="Image/Image2-1.bmp" width=360 
+height=300></span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(5) [관리자] 탭에서 데이터 관리자 접속을 위한 관리자 아이디 및 비밀번호를 설정 후, [확인]을 클릭합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (6) 상단의 [제어] - [서비스 시작] 메뉴를 클릭하여 메신저 서버 서비스를 시작합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (7) </span><span style="font-size:9pt; color:rgb(0,0,160);">코어 메신저 서버 관리자 </span><span style="font-size:9pt;">를 종료합니다.</span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;"><b>[3] 코어 메신저 데이터 관리자 설치</b></span></font></STRONG></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">1. 기본 코드 및 정보 입력</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp; &gt; 코어 메신저를 사용하기 위하여, 기본적으로 부서, 직급, 사용자 정보등을 입력해야 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 이러한 정보는 직접 데이터베이스에서 입력이 가능하지만, 코어 메신저 데이터 관리자를 사용하시면 편리합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 코어 메신저 데이터 관리자는 데이터베이스에&nbsp;접속하지 않고, 메신저 서버에 접속하여 데이터를 처리합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;"> &nbsp;&nbsp;(1) </span><span style="font-size:9pt; color:rgb(0,0,160);">Install </span><span style="font-size:9pt;">폴더 내부의 </span><span style="font-size:9pt; color:rgb(0,0,160);">Core Messenger Data Manager Setup.exe </span><span style="font-size:9pt;">를 설치하고자 하는 컴퓨터에서&nbsp;실행합니다</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(PC 운영체제가 비스타 이상일때&nbsp;관리자 계정이 아니라면 관리자 권한으로 설치해야 합니다.)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (만일 실행시 오류가 발생한다면, 먼저 닷넷 프레임워크 2.0 버전을 설치해야 합니다.)</span></font></P>
+<P>&nbsp;</P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><IMG 
+style="HEIGHT: 350px; WIDTH: 370px" 
+src="Image/Image0-2.png" width="370" 
+height="350"></span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;(2) 설치를 진행합니다.</span></font></P>
+<P>&nbsp;</P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><IMG 
+style="HEIGHT: 350px; WIDTH: 370px" 
+src="Image/Image0-3.png" width="370" 
+height="350"></span></font></P>
+<P>&nbsp;</P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) </span><span style="font-size:9pt; color:rgb(0,0,160);">코어 메신저 데이터 관리자</span><span style="font-size:9pt; color:rgb(0,0,160);"> </span><span style="font-size:9pt;">를&nbsp;실행합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font><img src="Image/Image3.bmp" width="1000" height="563" border="0"></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (4) [파일] - [프로그램 설정] 메뉴를 클릭합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG 
+style="HEIGHT: 208px; WIDTH: 374px" 
+src="image/Image4.bmp" width=374 
+height=208></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (5) 프로그램 설정창에서 메신저 서버 주소 및 포트 번호를 입력 후 [확인] 버튼을 클릭합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (6) [파일] - [연결하기] 메뉴 또는 F2 키를 눌러 로그인 창을 엽니다.&nbsp;</span></font></P>
+<P>&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Image/Image3-1.bmp" width="370" height="250" border="0"></P>
+<P>&nbsp;</P>
+<P>&nbsp;<font face="굴림"><span style="font-family:굴림; font-size:9pt;">&nbsp;&nbsp;(7) 메신저 서버 관리자에서 설정한 관리자 계정으로 로그인을 합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><STRONG><font face="맑은 고딕"><span style="font-size:14pt;">[4] 코어 메신저 데이터 관리자 데이터 입력 방법<br>
+</span></font></STRONG></P>
+<P><font face="굴림"><span style="font-size:9pt;"><br>
+ &nbsp;&nbsp;&nbsp;[1] 부서 테이블 입력<br>
+<br>
+</span></font><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><IMG style="WIDTH: 1000px; HEIGHT: 563px" 
+src="image/Image5.bmp" width="1000" height="563"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) 부서코드 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;부서 고유 코드 입니다.&nbsp;영숫자 5자리로 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) 상위부서코드 : 상위 부서 코드 입니다. 최상위 부서일 경우에는 '00000' 를 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+위의 코드를 보시면, 경영기획팀은 코어티브의 하위 부서 입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) 부서명 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;부서명 이름입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (4) 부서배열순서 : 메신저에 표시할 부서의 순서입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+번호자체에 큰 의미는 없으며, 주의할점은 하위 부서보다 상위부서의 순서의 숫자가 크면 안됩니다.<br>
+<br>
+ &nbsp;&nbsp;&nbsp;[2]&nbsp;직급 테이블 입력</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><IMG style="WIDTH: 1000px; HEIGHT: 563px" 
+src="image/Image6.bmp" width="1000" height="563"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1) 직급코드 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;직급 고유 코드 입니다. 영숫자 5자리로 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) 직급명 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;직급 이름 입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) 직급배열순서 : 메신저에 표시할 직급의 순서입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+번호자체에 큰 의미는 없으며, 주의할점은 과장 보다 대리의 숫자가 크면 </span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+메신저에 표시할 때에 순서가 잘못되므로 주의하셔야 합니다.<br>
+<br>
+ &nbsp;&nbsp;&nbsp;[3]&nbsp;사용자 테이블 입력</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><IMG style="WIDTH: 1000px; HEIGHT: 563px" 
+src="image/Image7.bmp" width="1000" height="563"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1)&nbsp;아이디 :&nbsp;&nbsp;&nbsp;&nbsp;사용자 고유&nbsp;아이디 입니다.&nbsp;최대 20자리 입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) 비밀번호 : 사용자 비밀번호를 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+(비밀번호는 MD5로 인코딩되어 입력 됩니다.)</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (3) 이름 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사용자 이름을 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (4) 부서코드 : 사용자의 해당 부서를 목록에서&nbsp;선택합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (5) 직급코드 : 사용자의 직급을 목록에서 선택합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (6) 전화번호&nbsp;: 사용자 전화 번호를 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (7) 핸드폰 : &nbsp;&nbsp;&nbsp;사용자 핸드폰 번호를 입력합니다.&nbsp;&nbsp;&nbsp; </span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (8) 이메일 : &nbsp;&nbsp;&nbsp;사용자 이메일 주소를 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (9) 사용여부 : 해당 계정의 사용여부를 선택합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (10) 이미지 : &nbsp;사용자의 프로필 이미지를 컴퓨터에서 선택합니다.<br>
+<br>
+ &nbsp;&nbsp;&nbsp;[4]&nbsp;바로가기 기본정보 테이블 입력</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; &gt; 바로가기 정보는 메신저에서 기본적으로 표시할 바로가기(즐겨찾기)를 설정하는 항목입니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 이는 사용자 정의 바로가기 와는 별도로 관리자에 의해서 관리합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><span style="font-family:굴림; font-size:10pt; margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><font face="굴림"><span style="font-size:9pt;"><IMG style="WIDTH: 1000px; HEIGHT: 563px" 
+src="image/Image8.bmp" width="1000" height="563"></span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (1)&nbsp;바로가기 이름&nbsp;: 바로가기의 이름을 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;&nbsp; (2) 바로가기 주소 : 바로가기의 URL 주소를 입력합니다.</span></font></P>
+<P><font face="굴림"><span style="font-size:9pt;">&nbsp;</span></font></P>
+<P>&nbsp;</P>
+</BODY></HTML>

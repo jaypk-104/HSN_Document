@@ -1,0 +1,12 @@
+﻿* 엑스윌
+\\192.168.50.230\d$\SAMSUNG\uniERPII\UNIERP.NET\uniWebSmart\Default\WebRoot\Excel
+
+비밀번호 -> zz@016572
+
+* 네트웍스
+
+\\123.142.124.140\c$\UNIERP.NET\uniWebSmart\Default\WebApp\EXCEL
+
+http://192.168.50.230/KO460_yearend/UniMain2.aspx
+
+yearend   / unierp1

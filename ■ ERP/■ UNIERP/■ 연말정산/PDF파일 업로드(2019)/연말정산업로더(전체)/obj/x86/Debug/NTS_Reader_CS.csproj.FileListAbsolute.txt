@@ -1,0 +1,92 @@
+D:\EDOC\@Project\20140923_국세청\5가지 언어 샘플\sample\SampleCode(C#)\bin\x86\Debug\NTS_Reader_CS.exe
+D:\EDOC\@Project\20140923_국세청\5가지 언어 샘플\sample\SampleCode(C#)\bin\x86\Debug\NTS_Reader_CS.pdb
+D:\EDOC\@Project\20140923_국세청\5가지 언어 샘플\sample\SampleCode(C#)\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\EDOC\@Project\20140923_국세청\5가지 언어 샘플\sample\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.NTS_Reader.resources
+D:\EDOC\@Project\20140923_국세청\5가지 언어 샘플\sample\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.Properties.Resources.resources
+D:\EDOC\@Project\20140923_국세청\5가지 언어 샘플\sample\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.csproj.GenerateResource.Cache
+D:\EDOC\@Project\20140923_국세청\5가지 언어 샘플\sample\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.exe
+D:\EDOC\@Project\20140923_국세청\5가지 언어 샘플\sample\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.pdb
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\bin\x86\Debug\NTS_Reader_CS.exe
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\bin\x86\Debug\NTS_Reader_CS.pdb
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.NTS_Reader.resources
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.Properties.Resources.resources
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.csproj.GenerateResource.Cache
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.exe
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.pdb
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\bin\x86\Debug\NTS_Reader_CS.exe.manifest
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\bin\x86\Debug\NTS_Reader_CS.application
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.exe.manifest
+C:\Users\admin\Downloads\SampleCode\SampleCode(C#)\obj\x86\Debug\NTS_Reader_CS.application
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\bin\x86\Debug\NTS_Reader_CS.exe.manifest
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\bin\x86\Debug\NTS_Reader_CS.application
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\bin\x86\Debug\NTS_Reader_CS.exe
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\bin\x86\Debug\NTS_Reader_CS.pdb
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\obj\x86\Debug\NTS_Reader_CS.NTS_Reader.resources
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\obj\x86\Debug\NTS_Reader_CS.Properties.Resources.resources
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\obj\x86\Debug\NTS_Reader_CS.csproj.GenerateResource.Cache
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\obj\x86\Debug\NTS_Reader_CS.exe.manifest
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\obj\x86\Debug\NTS_Reader_CS.application
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\obj\x86\Debug\NTS_Reader_CS.exe
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\obj\x86\Debug\NTS_Reader_CS.pdb
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.exe.manifest
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.application
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.exe
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.pdb
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.NTS_Reader.resources
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.Properties.Resources.resources
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.csproj.GenerateResource.Cache
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.exe.manifest
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.application
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.exe
+D:\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.pdb
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.exe.manifest
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.application
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.exe
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.pdb
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.NTS_Reader.resources
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.Properties.Resources.resources
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.csproj.GenerateResource.Cache
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.exe.manifest
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.application
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.exe
+D:\D드라이브\프로그램개발백업\연말정산,퇴직금\연말정산자료업로더\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.pdb
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.exe.manifest
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.application
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.exe
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\bin\x86\Debug\NTS_Reader_CS.pdb
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.NTS_Reader.resources
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.Properties.Resources.resources
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.csproj.GenerateResource.Cache
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.exe.manifest
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.application
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.exe
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(개인)\obj\x86\Debug\NTS_Reader_CS.pdb
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\bin\x86\Debug\NTS_Reader_CS.exe.manifest
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\bin\x86\Debug\NTS_Reader_CS.application
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\bin\x86\Debug\NTS_Reader_CS.exe
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\bin\x86\Debug\NTS_Reader_CS.pdb
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.NTS_Reader.resources
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.Properties.Resources.resources
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.csproj.GenerateResource.Cache
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.exe.manifest
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.application
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.exe
+C:\Users\20110018\Desktop\연말정산\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.pdb
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\bin\x86\Debug\NTS_Reader_CS.exe.manifest
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\bin\x86\Debug\NTS_Reader_CS.application
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\bin\x86\Debug\NTS_Reader_CS.exe
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.NTS_Reader.resources
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.Properties.Resources.resources
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.csproj.GenerateResource.Cache
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.exe.manifest
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.application
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.exe
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\obj\x86\Debug\NTS_Reader_CS.pdb
+D:\■ LGR\LGR\■ 연말정산\PDF파일 업로드(2019)\연말정산업로더(전체)\bin\x86\Debug\NTS_Reader_CS.pdb

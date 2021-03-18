@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<yesone>
+<doc>
+	<doc_type>A</doc_type>
+	<seq>2019121901181481</seq>
+	<att_year>2019</att_year>
+	<att_inqrMm>01 ~ 12월</att_inqrMm>
+</doc>
+<form form_cd="O101M">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0030">
+			<sum hi_yrs="91660" ltrm_yrs="5980" hi_ntf="1910740" ltrm_ntf="140380" hi_pmt="0" ltrm_pmt="0">2051120</sum>
+			<amt mm="01" hi_ntf="146520" ltrm_ntf="10810" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="02" hi_ntf="146520" ltrm_ntf="10810" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="03" hi_ntf="146520" ltrm_ntf="10810" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="04" hi_ntf="152280" ltrm_ntf="11230" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="05" hi_ntf="152280" ltrm_ntf="11230" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="06" hi_ntf="152280" ltrm_ntf="11230" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="07" hi_ntf="152280" ltrm_ntf="11230" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="08" hi_ntf="152280" ltrm_ntf="11230" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="09" hi_ntf="152280" ltrm_ntf="11230" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="10" hi_ntf="155280" ltrm_ntf="11530" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="11" hi_ntf="155280" ltrm_ntf="11530" hi_pmt="0" ltrm_pmt="0"/>
+			<amt mm="12" hi_ntf="155280" ltrm_ntf="11530" hi_pmt="0" ltrm_pmt="0"/>
+		</data>
+	</man>
+</form>
+
+<form form_cd="P102M">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0031">
+			<sum sp_ntf="0" spym="1385910" jlc="10170" ntf="538930" pmt="1946230">2485160</sum>
+			<amt mm="01" wrkp_ntf="76990" rgn_pmt="88870"></amt>
+			<amt mm="02" wrkp_ntf="76990" rgn_pmt="0"></amt>
+			<amt mm="03" wrkp_ntf="76990" rgn_pmt="0"></amt>
+			<amt mm="04" wrkp_ntf="76990" rgn_pmt="0"></amt>
+			<amt mm="05" wrkp_ntf="76990" rgn_pmt="0"></amt>
+			<amt mm="06" wrkp_ntf="76990" rgn_pmt="0"></amt>
+			<amt mm="07" wrkp_ntf="76990" rgn_pmt="0"></amt>
+			<amt mm="08" wrkp_ntf="0" rgn_pmt="0"></amt>
+			<amt mm="09" wrkp_ntf="0" rgn_pmt="0"></amt>
+			<amt mm="10" wrkp_ntf="0" rgn_pmt="307520"></amt>
+			<amt mm="11" wrkp_ntf="0" rgn_pmt="153760"></amt>
+			<amt mm="12" wrkp_ntf="0" rgn_pmt="0"></amt>
+		</data>
+	</man>
+</form>
+
+<form form_cd="A102Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0001" busnid="4118304999" trade_nm="A화재해상보험" acc_no="60801522950000">
+			<goods_nm>무배당 삼성 올라이프 Super보험</goods_nm>
+			<insu1_resid>7501011234567</insu1_resid>
+			<insu1_nm>김길동</insu1_nm>
+			<insu2_resid_1></insu2_resid_1>
+			<insu2_nm_1></insu2_nm_1>
+			<insu2_resid_2></insu2_resid_2>
+			<insu2_nm_2></insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>1143000</sum>
+		</data>
+		<data dat_cd="G0001" busnid="6208300961" trade_nm="C은행" acc_no="51321522030000">
+			<goods_nm>무배당 삼성화재 가정종합보험</goods_nm>
+			<insu1_resid>7501011234567</insu1_resid>
+			<insu1_nm>김길동</insu1_nm>
+			<insu2_resid_1>8101012234567</insu2_resid_1>
+			<insu2_nm_1>홍부인</insu2_nm_1>
+			<insu2_resid_2></insu2_resid_2>
+			<insu2_nm_2></insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>100000</sum>
+		</data>
+		<data dat_cd="G0001" busnid="6208300961" trade_nm="C은행" acc_no="51505837400000">
+			<goods_nm>무배당삼성화재자녀보험엄마맘에</goods_nm>
+			<insu1_resid>8101012234567</insu1_resid>
+			<insu1_nm>홍부인</insu1_nm>
+			<insu2_resid_1></insu2_resid_1>
+			<insu2_nm_1></insu2_nm_1>
+			<insu2_resid_2></insu2_resid_2>
+			<insu2_nm_2></insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>350067</sum>
+		</data>
+		<data dat_cd="G0001" busnid="6208300961" trade_nm="C은행" acc_no="51308627980000">
+			<goods_nm>무배당삼성화재자녀보험엄마맘에</goods_nm>
+			<insu1_resid>0001013234567</insu1_resid>
+			<insu1_nm>김영수</insu1_nm>
+			<insu2_resid_1></insu2_resid_1>
+			<insu2_nm_1></insu2_nm_1>
+			<insu2_resid_2></insu2_resid_2>
+			<insu2_nm_2></insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>242220</sum>
+		</data>
+		<data dat_cd="G0001" busnid="4118304999" trade_nm="A화재해상보험" acc_no="81846799740000">
+			<goods_nm>해외여행보험</goods_nm>
+			<insu1_resid>7501011234567</insu1_resid>
+			<insu1_nm>김길동</insu1_nm>
+			<insu2_resid_1></insu2_resid_1>
+			<insu2_nm_1></insu2_nm_1>
+			<insu2_resid_2></insu2_resid_2>
+			<insu2_nm_2></insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>99030</sum>
+		</data>
+		<data dat_cd="G0002" busnid="6138300605" trade_nm="DD보험" acc_no="320171065873">
+			<goods_nm>스마트가정보장보험1701</goods_nm>
+			<insu1_resid>7501011234567</insu1_resid>
+			<insu1_nm>김길동</insu1_nm>
+			<insu2_resid_1>0001013234567</insu2_resid_1>
+			<insu2_nm_1>김영수</insu2_nm_1>
+			<insu2_resid_2>1701014234567</insu2_resid_2>
+			<insu2_nm_2>김둘리</insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>1962000</sum>
+		</data>
+	</man>
+	<man resid="8101012234567" name="홍부인">
+		<data dat_cd="G0001" busnid="2128203154" trade_nm="AB손해보험" acc_no="60900306210000">
+			<goods_nm>무배당 삼성 올라이프 Super보험</goods_nm>
+			<insu1_resid>8101012234567</insu1_resid>
+			<insu1_nm>홍부인</insu1_nm>
+			<insu2_resid_1>7501011234567</insu2_resid_1>
+			<insu2_nm_1>김길동</insu2_nm_1>
+			<insu2_resid_2></insu2_resid_2>
+			<insu2_nm_2></insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>1722730</sum>
+		</data>
+	</man>
+	<man resid="0001013234567" name="김영수">
+		<data dat_cd="G0001" busnid="4118304999" trade_nm="A화재해상보험" acc_no="51308609430000">
+			<goods_nm>무배당삼성화재자녀보험엄마맘에</goods_nm>
+			<insu1_resid>0001013234567</insu1_resid>
+			<insu1_nm>김영수</insu1_nm>
+			<insu2_resid_1></insu2_resid_1>
+			<insu2_nm_1></insu2_nm_1>
+			<insu2_resid_2></insu2_resid_2>
+			<insu2_nm_2></insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>360000</sum>
+		</data>
+	</man>
+	<man resid="1701014234567" name="김둘리">
+		<data dat_cd="G0001" busnid="2128203154" trade_nm="AB손해보험" acc_no="51220049330000">
+			<goods_nm>무배당삼성화재자녀보험엄마맘에</goods_nm>
+			<insu1_resid>1701014234567</insu1_resid>
+			<insu1_nm>김둘리</insu1_nm>
+			<insu2_resid_1></insu2_resid_1>
+			<insu2_nm_1></insu2_nm_1>
+			<insu2_resid_2></insu2_resid_2>
+			<insu2_nm_2></insu2_nm_2>
+			<insu2_resid_3></insu2_resid_3>
+			<insu2_nm_3></insu2_nm_3>
+			<sum>489872</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="B101Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0003" busnid="1200790561" trade_nm="P의**">
+			<sum>38400</sum>
+		</data>
+		<data dat_cd="G0003" busnid="2050382267" trade_nm="O **">
+			<sum>24000</sum>
+		</data>
+		<data dat_cd="G0026" busnid="6050158736" trade_nm="영안*">
+			<sum>84000</sum>
+		</data>
+	</man>
+	<man resid="8101012234567" name="홍부인">
+		<data dat_cd="G0034" busnid="6150371346" trade_nm="K산****">
+			<sum>4700000</sum>
+		</data>
+	</man>
+	<man resid="0001013234567" name="김영수">
+		<data dat_cd="G0003" busnid="5031433273" trade_nm="와이****">
+			<sum>14200</sum>
+		</data>
+		<data dat_cd="G0027" busnid="6050158847" trade_nm="혜성***">
+			<sum>94000</sum>
+		</data>
+	</man>
+	<man resid="0501013234567" name="김철수">
+		<data dat_cd="G0025" busnid="6050158513" trade_nm="P의***">
+			<sum>96800</sum>
+		</data>
+	</man>
+	<man resid="6201012234567" name="장장모">
+		<data dat_cd="G0003" busnid="2162323325" trade_nm="U **">
+			<sum>6600</sum>
+		</data>
+	</man>
+	<man resid="1701014234567" name="김둘리">
+		<data dat_cd="G0026" busnid="6050158736" trade_nm="영안*">
+			<sum>484000</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="C102Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0006" busnid="3058302658" trade_nm="YU대학원" edu_tp="7" edu_cl="A">
+			<sum>9500000</sum>
+		</data>
+	</man>
+	<man resid="8101012234567" name="홍부인">
+		<data dat_cd="G0006" busnid="2178301726" trade_nm="NA대학교" edu_tp="6" edu_cl="A">
+			<sum>9181000</sum>
+		</data>
+		<data dat_cd="G0006" busnid="5028203038" trade_nm="사이버대학교" edu_tp="L" edu_cl="A">
+			<sum>2000000</sum>
+		</data>
+	</man>
+	<man resid="0001013234567" name="김영수">
+		<data dat_cd="G0007" busnid="1178200060" trade_nm="BB복지센터" edu_tp="H" edu_cl="A">
+			<sum>2760000</sum>
+		</data>
+		<data dat_cd="G0007" busnid="3068201636" trade_nm="재활치료센터" edu_tp="K" edu_cl="A">
+			<sum>680000</sum>
+		</data>
+	</man>
+	<man resid="0501013234567" name="김철수">
+		<data dat_cd="G0004" busnid="2138206945" trade_nm="OP중학교" edu_tp="3" edu_cl="A">
+			<sum>37600</sum>
+		</data>
+		<data dat_cd="G0004" busnid="2138206945" trade_nm="OP중학교" edu_tp="3" edu_cl="B">
+			<sum>76740</sum>
+		</data>
+	</man>
+	<man resid="1701014234567" name="김둘리">
+		<data dat_cd="G0008" busnid="4098302794" trade_nm="BK 유치원" edu_tp="1" edu_cl="A">
+			<sum>1100000</sum>
+		</data>
+		<data dat_cd="G0007" busnid="3148300090" trade_nm="엘 학원" edu_tp="F" edu_cl="A">
+			<sum>1840720</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="C202Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0005" busnid="6058544343" trade_nm="FF 아카데미 ">
+			<course_cd>AIG201600001202663</course_cd>
+			<subject_nm>디지털디자인향상과정(웹표준및웹접근성)</subject_nm>
+			<sum>189450</sum>
+		</data>
+		<data dat_cd="G0005" busnid="6058544343" trade_nm="FF 아카데미 ">
+			<course_cd>AIG201600001201248</course_cd>
+			<subject_nm>실내건축설계 향상과정(Auto CAD)</subject_nm>
+			<sum>60250</sum>
+		</data>
+		<data dat_cd="G0005" busnid="6171953248" trade_nm="Q 직업학교">
+			<course_cd>ACG2016200062191918</course_cd>
+			<subject_nm>중국어 초급 2</subject_nm>
+			<sum>552000</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="C301Y">
+	<man resid="0501013234567" name="김철수">
+		<data dat_cd="G0024" busnid="3148301105" trade_nm="***학교">
+			<sum>242000</sum>
+		</data>
+		<data dat_cd="G0024" busnid="3051625718" trade_nm="OK교복">
+			<sum>52000</sum>
+		</data>
+		<data dat_cd="G0024" busnid="6050159147" trade_nm="학생교복">
+			<sum>142000</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="C401Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0033" busnid="1048210922" trade_nm="장학재단">
+			<sum>530225</sum>
+		</data>
+		<data dat_cd="G0033" busnid="2208771599" trade_nm="행복기금">
+			<sum>866373</sum>
+		</data>
+		<data dat_cd="G0033" busnid="1048186269" trade_nm="학자금 공사">
+			<sum>7838368</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="G107Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0012" busnid="2138615419" trade_nm="QWQ카드" use_place_cd="1">
+			<sum>5777570</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2138615419" trade_nm="QWQ카드" use_place_cd="2">
+			<sum>86000</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2028148079" trade_nm="YAY카드 (주)" use_place_cd="1">
+			<sum>8067017</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2028148079" trade_nm="YAY카드 (주)" use_place_cd="4">
+			<sum>94000</sum>
+		</data>
+	</man>
+	<man resid="8101012234567" name="홍부인">
+		<data dat_cd="G0012" busnid="1018661717" trade_nm="RLR카드" use_place_cd="1">
+			<sum>16244550</sum>
+		</data>
+		<data dat_cd="G0012" busnid="1018661717" trade_nm="RLR카드" use_place_cd="2">
+			<sum>89500</sum>
+		</data>
+		<data dat_cd="G0012" busnid="1018661717" trade_nm="RLR카드" use_place_cd="3">
+			<sum>183100</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2028148079" trade_nm="YAY카드 (주)" use_place_cd="1">
+			<sum>804123</sum>
+		</data>
+	</man>
+	<man resid="6001011234567" name="홍장인">
+		<data dat_cd="G0012" busnid="2028148079" trade_nm="YAY카드 (주)" use_place_cd="1">
+			<sum>3972590</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2028148079" trade_nm="YAY카드 (주)" use_place_cd="2">
+			<sum>193000</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2028148079" trade_nm="YAY카드 (주)" use_place_cd="3">
+			<sum>146050</sum>
+		</data>
+	</man>
+	<man resid="6201012234567" name="장장모">
+		<data dat_cd="G0012" busnid="1208154231" trade_nm="ETE 은행" use_place_cd="4">
+			<sum>470600</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2028145602" trade_nm="HYH카드(주)" use_place_cd="1">
+			<sum>6863600</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2028145602" trade_nm="HYH카드(주)" use_place_cd="2">
+			<sum>256900</sum>
+		</data>
+		<data dat_cd="G0012" busnid="2028145602" trade_nm="HYH카드(주)" use_place_cd="3">
+			<sum>109700</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="G307Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0014" busnid="1208154231" trade_nm="ETE 은행" use_place_cd="4">
+			<sum>1115980</sum>
+		</data>
+	</man>
+	<man resid="8101012234567" name="홍부인">
+		<data dat_cd="G0014" busnid="2018168693" trade_nm="FGF 은행" use_place_cd="4">
+			<sum>24500</sum>
+		</data>
+		<data dat_cd="G0014" busnid="1018661717" trade_nm="RLR카드" use_place_cd="1">
+			<sum>1540761</sum>
+		</data>
+		<data dat_cd="G0014" busnid="1018661717" trade_nm="RLR카드" use_place_cd="2">
+			<sum>122000</sum>
+		</data>
+		<data dat_cd="G0014" busnid="1018661717" trade_nm="RLR카드" use_place_cd="3">
+			<sum>151700</sum>
+		</data>
+	</man>
+	<man resid="4201011234567" name="김부친">
+		<data dat_cd="G0014" busnid="2148137726" trade_nm="PNP카드（주）" use_place_cd="1">
+			<sum>1451596</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="G407Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0014" busnid="4088185459" trade_nm="(주)제로페이" use_place_cd="1">
+			<sum>800000</sum>
+		</data>
+		<data dat_cd="G0014" busnid="4088185459" trade_nm="(주)제로페이" use_place_cd="2">
+			<sum>41873170</sum>
+		</data>
+	</man>
+	<man resid="8101012234567" name="홍부인">
+		<data dat_cd="G0014" busnid="4088185459" trade_nm="(주)제로페이" use_place_cd="4">
+			<sum>4000000</sum>
+		</data>
+	</man>
+	<man resid="6001011234567" name="홍장인">
+		<data dat_cd="G0014" busnid="4088185459" trade_nm="(주)제로페이" use_place_cd="1">
+			<sum>600000</sum>
+		</data>
+	</man>
+	<man resid="6201012234567" name="장장모">
+		<data dat_cd="G0014" busnid="4088185459" trade_nm="(주)제로페이" use_place_cd="2">
+			<sum>1500000</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="G207M">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0013" use_place_cd="1">
+			<sum>1403900</sum>
+			<amt mm="01">67600</amt>
+			<amt mm="02">57200</amt>
+			<amt mm="03">26400</amt>
+			<amt mm="04">124000</amt>
+			<amt mm="05">24000</amt>
+			<amt mm="06">40000</amt>
+			<amt mm="07">65680</amt>
+			<amt mm="08">40000</amt>
+			<amt mm="09">67420</amt>
+			<amt mm="10">102700</amt>
+			<amt mm="11">350000</amt>
+			<amt mm="12">438900</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="2">
+			<sum>2777251</sum>
+			<amt mm="01">7400</amt>
+			<amt mm="02">48610</amt>
+			<amt mm="03">59460</amt>
+			<amt mm="04">25660</amt>
+			<amt mm="05">174600</amt>
+			<amt mm="06">7920</amt>
+			<amt mm="07">296250</amt>
+			<amt mm="08">498990</amt>
+			<amt mm="09">491000</amt>
+			<amt mm="10">18990</amt>
+			<amt mm="11">1101610</amt>
+			<amt mm="12">46761</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="3">
+			<sum>696969</sum>
+			<amt mm="01">1893</amt>
+			<amt mm="02">0</amt>
+			<amt mm="03">4600</amt>
+			<amt mm="04">0</amt>
+			<amt mm="05">24900</amt>
+			<amt mm="06">24900</amt>
+			<amt mm="07">344750</amt>
+			<amt mm="08">0</amt>
+			<amt mm="09">130640</amt>
+			<amt mm="10">90700</amt>
+			<amt mm="11">69140</amt>
+			<amt mm="12">5446</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="4">
+			<sum>309202</sum>
+			<amt mm="01">32170</amt>
+			<amt mm="02">32170</amt>
+			<amt mm="03">53652</amt>
+			<amt mm="04">48110</amt>
+			<amt mm="05">0</amt>
+			<amt mm="06">107000</amt>
+			<amt mm="07">19910</amt>
+			<amt mm="08">16190</amt>
+			<amt mm="09">0</amt>
+			<amt mm="10">0</amt>
+			<amt mm="11">0</amt>
+			<amt mm="12">0</amt>
+		</data>
+	</man>
+	<man resid="8101012234567" name="홍부인">
+		<data dat_cd="G0013" use_place_cd="1">
+			<sum>160460</sum>
+			<amt mm="01">7310</amt>
+			<amt mm="02">16000</amt>
+			<amt mm="03">11600</amt>
+			<amt mm="04">21160</amt>
+			<amt mm="05">24490</amt>
+			<amt mm="06">17840</amt>
+			<amt mm="07">17840</amt>
+			<amt mm="08">17840</amt>
+			<amt mm="09">5530</amt>
+			<amt mm="10">5530</amt>
+			<amt mm="11">5530</amt>
+			<amt mm="12">9790</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="2">
+			<sum>448832</sum>
+			<amt mm="01">9790</amt>
+			<amt mm="02">27922</amt>
+			<amt mm="03">35620</amt>
+			<amt mm="04">35620</amt>
+			<amt mm="05">44980</amt>
+			<amt mm="06">27300</amt>
+			<amt mm="07">27300</amt>
+			<amt mm="08">51850</amt>
+			<amt mm="09">51850</amt>
+			<amt mm="10">24330</amt>
+			<amt mm="11">39830</amt>
+			<amt mm="12">72440</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="3">
+			<sum>265350</sum>
+			<amt mm="01">39830</amt>
+			<amt mm="02">5000</amt>
+			<amt mm="03">0</amt>
+			<amt mm="04">0</amt>
+			<amt mm="05">39320</amt>
+			<amt mm="06">111530</amt>
+			<amt mm="07">0</amt>
+			<amt mm="08">0</amt>
+			<amt mm="09">10610</amt>
+			<amt mm="10">0</amt>
+			<amt mm="11">29530</amt>
+			<amt mm="12">29530</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="4">
+			<sum>143530</sum>
+			<amt mm="01">29530</amt>
+			<amt mm="02">0</amt>
+			<amt mm="03">0</amt>
+			<amt mm="04">0</amt>
+			<amt mm="05">21080</amt>
+			<amt mm="06">12120</amt>
+			<amt mm="07">3800</amt>
+			<amt mm="08">38500</amt>
+			<amt mm="09">0</amt>
+			<amt mm="10">38500</amt>
+			<amt mm="11">0</amt>
+			<amt mm="12">0</amt>
+		</data>
+	</man>
+	<man resid="6201012234567" name="장장모">
+		<data dat_cd="G0013" use_place_cd="1">
+			<sum>141240</sum>
+			<amt mm="01">45540</amt>
+			<amt mm="02">580</amt>
+			<amt mm="03">580</amt>
+			<amt mm="04">580</amt>
+			<amt mm="05">8540</amt>
+			<amt mm="06">8660</amt>
+			<amt mm="07">3420</amt>
+			<amt mm="08">4900</amt>
+			<amt mm="09">5500</amt>
+			<amt mm="10">20980</amt>
+			<amt mm="11">20980</amt>
+			<amt mm="12">20980</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="2">
+			<sum>1513296</sum>
+			<amt mm="01">25620</amt>
+			<amt mm="02">30020</amt>
+			<amt mm="03">25620</amt>
+			<amt mm="04">27930</amt>
+			<amt mm="05">41710</amt>
+			<amt mm="06">95880</amt>
+			<amt mm="07">38429</amt>
+			<amt mm="08">1061397</amt>
+			<amt mm="09">61390</amt>
+			<amt mm="10">61450</amt>
+			<amt mm="11">0</amt>
+			<amt mm="12">43850</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="3">
+			<sum>87600</sum>
+			<amt mm="01">0</amt>
+			<amt mm="02">18480</amt>
+			<amt mm="03">0</amt>
+			<amt mm="04">0</amt>
+			<amt mm="05">0</amt>
+			<amt mm="06">0</amt>
+			<amt mm="07">8500</amt>
+			<amt mm="08">8500</amt>
+			<amt mm="09">0</amt>
+			<amt mm="10">26060</amt>
+			<amt mm="11">26060</amt>
+			<amt mm="12">0</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="4">
+			<sum>96380</sum>
+			<amt mm="01">4400</amt>
+			<amt mm="02">5500</amt>
+			<amt mm="03">8800</amt>
+			<amt mm="04">6400</amt>
+			<amt mm="05">5100</amt>
+			<amt mm="06">8110</amt>
+			<amt mm="07">0</amt>
+			<amt mm="08">0</amt>
+			<amt mm="09">3800</amt>
+			<amt mm="10">0</amt>
+			<amt mm="11">54270</amt>
+			<amt mm="12">0</amt>
+		</data>
+	</man>
+	<man resid="4201011234567" name="김부친">
+		<data dat_cd="G0013" use_place_cd="1">
+			<sum>381580</sum>
+			<amt mm="01">32330</amt>
+			<amt mm="02">32330</amt>
+			<amt mm="03">30090</amt>
+			<amt mm="04">57820</amt>
+			<amt mm="05">57820</amt>
+			<amt mm="06">23600</amt>
+			<amt mm="07">23600</amt>
+			<amt mm="08">23600</amt>
+			<amt mm="09">22130</amt>
+			<amt mm="10">22230</amt>
+			<amt mm="11">39390</amt>
+			<amt mm="12">16640</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="2">
+			<sum>1428381</sum>
+			<amt mm="01">39420</amt>
+			<amt mm="02">38500</amt>
+			<amt mm="03">92760</amt>
+			<amt mm="04">54650</amt>
+			<amt mm="05">5500</amt>
+			<amt mm="06">32930</amt>
+			<amt mm="07">28530</amt>
+			<amt mm="08">45870</amt>
+			<amt mm="09">27570</amt>
+			<amt mm="10">21740</amt>
+			<amt mm="11">5830</amt>
+			<amt mm="12">1035081</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="3">
+			<sum>221134</sum>
+			<amt mm="01">27770</amt>
+			<amt mm="02">27770</amt>
+			<amt mm="03">22420</amt>
+			<amt mm="04">22420</amt>
+			<amt mm="05">22420</amt>
+			<amt mm="06">17470</amt>
+			<amt mm="07">28860</amt>
+			<amt mm="08">28860</amt>
+			<amt mm="09">0</amt>
+			<amt mm="10">0</amt>
+			<amt mm="11">9690</amt>
+			<amt mm="12">13454</amt>
+		</data>
+		<data dat_cd="G0013" use_place_cd="4">
+			<sum>145930</sum>
+			<amt mm="01">0</amt>
+			<amt mm="02">29070</amt>
+			<amt mm="03">0</amt>
+			<amt mm="04">30400</amt>
+			<amt mm="05">30400</amt>
+			<amt mm="06">30400</amt>
+			<amt mm="07">0</amt>
+			<amt mm="08">0</amt>
+			<amt mm="09">1370</amt>
+			<amt mm="10">24290</amt>
+			<amt mm="11">0</amt>
+			<amt mm="12">0</amt>
+		</data>
+	</man>
+</form>
+
+<form form_cd="N101Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0029" busnid="2018168693" trade_nm="FGF 은행" secu_no="85475501122320">
+			<fund_nm>한국밸류　１０년투자　소득공제</fund_nm>
+			<reg_dt>20140408</reg_dt>
+			<com_cd>306</com_cd>
+			<sum>2200000</sum>
+			<ddct_bs_ass_amt>880000</ddct_bs_ass_amt>
+		</data>
+		<data dat_cd="G0029" busnid="2028100978" trade_nm="YES은행" secu_no="250084183497">
+			<fund_nm>한국밸류10년투자소득공제증권투자신탁[채권혼합]종류C</fund_nm>
+			<reg_dt>20140430</reg_dt>
+			<com_cd>308</com_cd>
+			<sum>6000000</sum>
+			<ddct_bs_ass_amt>2400000</ddct_bs_ass_amt>
+		</data>
+	</man>
+</form>
+
+<form form_cd="Q101Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0035" busnid="1048639742" trade_nm="JM 은행(주)" secu_no="54655500058433">
+			<fund_nm>A투자증권</fund_nm>
+			<reg_dt>2019</reg_dt>
+			<vnt_asct_cl_cd>1</vnt_asct_cl_cd>
+			<com_cd>413</com_cd>
+			<sum>3000000</sum>
+		</data>
+		<data dat_cd="G0035" busnid="2028114695" trade_nm="(주) NN은행" secu_no="21489006443313">
+			<fund_nm>B투자증권</fund_nm>
+			<reg_dt>2019</reg_dt>
+			<vnt_asct_cl_cd>1</vnt_asct_cl_cd>
+			<com_cd>413</com_cd>
+			<sum>9000000</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="Q201Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0035" busnid="1048639742" trade_nm="JM 은행(주)" secu_no="54655500058433">
+			<fund_nm>A투자증권</fund_nm>
+			<reg_dt>2018</reg_dt>
+			<vnt_asct_cl_cd>1</vnt_asct_cl_cd>
+			<com_cd>413</com_cd>
+			<sum>2000000</sum>
+		</data>
+		<data dat_cd="G0035" busnid="2028114695" trade_nm="(주) NN은행" secu_no="21489006443313">
+			<fund_nm>B투자증권</fund_nm>
+			<reg_dt>2018</reg_dt>
+			<vnt_asct_cl_cd>1</vnt_asct_cl_cd>
+			<com_cd>413</com_cd>
+			<sum>9000000</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="J203Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0017" busnid="2090629912" trade_nm="LI 새마을금고" acc_no="207780000022">
+			<lend_kd>Z</lend_kd>
+			<house_take_dt>20190830</house_take_dt>
+			<mort_setup_dt>20190831</mort_setup_dt>
+			<start_dt>20190831</start_dt>
+			<end_dt>20390831</end_dt>
+			<repay_years>20</repay_years>
+			<lend_goods_nm>주택자금대출(주택구입자금대출)</lend_goods_nm>
+			<debt>25000000</debt>
+			<fixed_rate_debt>0</fixed_rate_debt>
+			<not_defer_debt>25000000</not_defer_debt>
+			<this_year_rede_amt>0</this_year_rede_amt>
+			<sum ddct="442628">442628</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="J101Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0016" busnid="6171958243" trade_nm="FI새마을금고" acc_no="9301209187315">
+			<goods_nm>가계전세자금대출</goods_nm>
+			<lend_dt>20171208</lend_dt>
+			<sum>37646410</sum>
+		</data>
+		<data dat_cd="G0016" busnid="1099958496" trade_nm="HI은행" acc_no="36102147207900000000">
+			<goods_nm>임차(전세)보증금담보대출 ([상호]가계일반자금대출)</goods_nm>
+			<lend_dt>20130704</lend_dt>
+			<sum>1092011</sum>
+		</data>
+		<data dat_cd="G0016" busnid="1099961837" trade_nm="GI은행" acc_no="1320700705254">
+			<goods_nm>주택도시기금 저소득가구전세자금대출(담보/보증대)</goods_nm>
+			<lend_dt>20091124</lend_dt>
+			<sum>7967950</sum>
+		</data>
+		<data dat_cd="G0016" busnid="2220533654" trade_nm="KI 은행" acc_no="0786300286121">
+			<goods_nm>주택자금대출</goods_nm>
+			<lend_dt>20190716</lend_dt>
+			<sum>419570</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="J301Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0018" busnid="6171968038" trade_nm="QQ 은행" acc_no="43180795102145">
+			<goods_nm>청약저축</goods_nm>
+			<saving_gubn>1</saving_gubn>
+			<reg_dt>19810528</reg_dt>
+			<com_cd>306</com_cd>
+			<sum>1200000</sum>
+		</data>
+		<data dat_cd="G0018" busnid="2090632493" trade_nm="TT은행" acc_no="527107974857">
+			<goods_nm>주택청약종합저축</goods_nm>
+			<saving_gubn>2</saving_gubn>
+			<reg_dt>20180616</reg_dt>
+			<com_cd>313</com_cd>
+			<sum>600000</sum>
+		</data>
+		<data dat_cd="G0018" busnid="3100689734" trade_nm="MM은행" acc_no="36591006511925">
+			<goods_nm>주택청약종합저축</goods_nm>
+			<saving_gubn>2</saving_gubn>
+			<reg_dt>20090512</reg_dt>
+			<com_cd>305</com_cd>
+			<sum>1200000</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="D101Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0009" busnid="2198201220" trade_nm="A협동조합중앙회" acc_no="04411218821005">
+			<start_dt>19960723</start_dt>
+			<end_dt>20200723</end_dt>
+			<com_cd>170</com_cd>
+			<sum>2760000</sum>
+		</data>
+		<data dat_cd="G0009" busnid="1168136684" trade_nm="C금융투자" acc_no="03001107662005">
+			<start_dt>19940825</start_dt>
+			<end_dt>20200825</end_dt>
+			<com_cd>170</com_cd>
+			<sum>3300000</sum>
+		</data>
+	</man>
+</form>
+
+<form form_cd="E102Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0010" busnid="2198201220" trade_nm="A협동조합중앙회" acc_no="983102135692">
+			<com_cd>210</com_cd>
+			<ann_tot_amt>4000000</ann_tot_amt>
+			<tax_year_amt>0</tax_year_amt>
+			<ddct_bs_ass_amt>4000000</ddct_bs_ass_amt>
+		</data>
+		<data dat_cd="G0010" busnid="2028148588" trade_nm="B증권주식회사" acc_no="983102366790">
+			<com_cd>210</com_cd>
+			<ann_tot_amt>1100000</ann_tot_amt>
+			<tax_year_amt>0</tax_year_amt>
+			<ddct_bs_ass_amt>1100000</ddct_bs_ass_amt>
+		</data>
+	</man>
+</form>
+
+<form form_cd="F102Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0011" busnid="2028148588" trade_nm="B증권주식회사" acc_no="707215508828">
+			<com_cd>529</com_cd>
+			<pension_cd>11</pension_cd>
+			<ann_tot_amt>3800000</ann_tot_amt>
+			<tax_year_amt>1800000</tax_year_amt>
+			<ddct_bs_ass_amt>2000000</ddct_bs_ass_amt>
+		</data>
+		<data dat_cd="G0011" busnid="1168136684" trade_nm="C금융투자" acc_no="707222091928">
+			<com_cd>529</com_cd>
+			<pension_cd>11</pension_cd>
+			<ann_tot_amt>1000000</ann_tot_amt>
+			<tax_year_amt>1000000</tax_year_amt>
+			<ddct_bs_ass_amt>0</ddct_bs_ass_amt>
+		</data>
+	</man>
+</form>
+
+<form form_cd="K101M">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0019" acc_no="201609220449">
+			<start_dt>20160922</start_dt>
+			<end_dt>99991231</end_dt>
+			<pay_method>M</pay_method>
+			<sum ddct="7500000">7500000</sum>
+			<amt mm="01" date="20190125">750000</amt>
+			<amt mm="02" date="20190227">750000</amt>
+			<amt mm="03" date="20190327">750000</amt>
+			<amt mm="04" date="20190425">750000</amt>
+			<amt mm="05" date="20190525">750000</amt>
+			<amt mm="06" date="20190626">750000</amt>
+			<amt mm="07" date="20190725">750000</amt>
+			<amt mm="08" date="20190825">750000</amt>
+			<amt mm="09" date="20190903">750000</amt>
+			<amt mm="10" date="20191025">250000</amt>
+			<amt mm="11" date="20191127">250000</amt>
+			<amt mm="12" date="20191226">250000</amt>
+		</data>
+	</man>
+</form>
+
+<form form_cd="L102Y">
+	<man resid="7501011234567" name="김길동">
+		<data dat_cd="G0020" busnid="1268213220" trade_nm="나눔의집(사회보장정보원)" donation_cd="40">
+			<sum>100000</sum>
+			<sbdy_apln_sum>0</sbdy_apln_sum>
+			<conb_sum>100000</conb_sum>
+		</data>
+		<data dat_cd="G0020" busnid="2038200639" trade_nm="대한적십자사" donation_cd="10">
+			<sum>60000</sum>
+			<sbdy_apln_sum>0</sbdy_apln_sum>
+			<conb_sum>60000</conb_sum>
+		</data>
+	</man>
+	<man resid="8101012234567" name="홍부인">
+		<data dat_cd="G0020" busnid="1128200240" trade_nm="Z대학교발전기금" donation_cd="10">
+			<sum>5000000</sum>
+			<sbdy_apln_sum>0</sbdy_apln_sum>
+			<conb_sum>5000000</conb_sum>
+		</data>
+	</man>
+	<man resid="0501013234567" name="김철수">
+		<data dat_cd="G0020" busnid="2148208005" trade_nm="CC인재재단" donation_cd="40">
+			<sum>20000</sum>
+			<sbdy_apln_sum>0</sbdy_apln_sum>
+			<conb_sum>20000</conb_sum>
+		</data>
+	</man>
+	<man resid="4201011234567" name="김부친">
+		<data dat_cd="G0020" busnid="2148208005" trade_nm="CC인재재단" donation_cd="40">
+			<sum>120000</sum>
+			<sbdy_apln_sum>0</sbdy_apln_sum>
+			<conb_sum>120000</conb_sum>
+		</data>
+		<data dat_cd="G0020" busnid="1128205245" trade_nm="VV연구센터" donation_cd="40">
+			<sum>50000</sum>
+			<sbdy_apln_sum>0</sbdy_apln_sum>
+			<conb_sum>50000</conb_sum>
+		</data>
+	</man>
+</form>
+
+</yesone>

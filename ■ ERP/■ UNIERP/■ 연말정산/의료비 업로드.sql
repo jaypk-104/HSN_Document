@@ -1,0 +1,63 @@
+/*
+의료비
+*/
+
+INSERT INTO H_HFA_TEMP_TABLE(EMP_NO,FORM_CD,RESID,NAME,SUM) 
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+38400 UNION ALL --금액
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+24000 UNION ALL --금액
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+84000 --금액
+ INSERT INTO H_HFA_TEMP_TABLE(EMP_NO,FORM_CD,RESID,NAME,SUM) 
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+4700000 --금액
+ INSERT INTO H_HFA_TEMP_TABLE(EMP_NO,FORM_CD,RESID,NAME,SUM) 
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+14200 UNION ALL --금액
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+94000 --금액
+ INSERT INTO H_HFA_TEMP_TABLE(EMP_NO,FORM_CD,RESID,NAME,SUM) 
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+96800 --금액
+ INSERT INTO H_HFA_TEMP_TABLE(EMP_NO,FORM_CD,RESID,NAME,SUM) 
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+6600 --금액
+ INSERT INTO H_HFA_TEMP_TABLE(EMP_NO,FORM_CD,RESID,NAME,SUM) 
+ SELECT '20180013', --사원번호
+ 'B101Y', --구분
+ '9510142588025', --주민등록번호
+ '이가람', --성명
+484000 --금액
+ EXEC USP_H_UPLOAD_YEAREND_2 '2019','20180013' 
+ DELETE FROM H_HFA_TEMP_TABLE WHERE EMP_NO = '20180013' 
+
+
+ USP_H_UPLOAD_YEAREND_2
+
+
+ sp_helptext 'USP_H_UPLOAD_YEAREND_8'

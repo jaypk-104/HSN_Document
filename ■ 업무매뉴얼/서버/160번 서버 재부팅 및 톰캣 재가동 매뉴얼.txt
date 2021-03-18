@@ -1,0 +1,14 @@
+160번 서버 재부팅 및 톰캣 재가동 매뉴얼
+
+
+2. cd /
+2. service iptables start 
+3. systemctl start firewalld
+4. cd /data/apache-tomcat-8.0.52/bin/ 들어가서
+5. sh shutdown.sh
+   sh startup.sh
+
+(6. cd /data/apache-tomcat-8.0.52/logs/ 들어가서
+tail -f catalina.out 치면
+톰캣이 올라오는 중인 로그 확인가능.. 최종적으로
+org.apache.catalina.startup.Catalina.start Server startup in nnnnnms 라는 메시지가 뜨면 톰캣구동 완료)
